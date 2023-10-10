@@ -1,0 +1,199 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+} 
+
+
+/* =======Screen Styling====== */
+
+ .screen{
+    color: white;
+    background-color: #182034;
+    height: 30px;
+    border-radius: 4px;
+    margin-top: 4em;
+    width: 22em;
+    height: 3em;
+    font-family: "Spartan", sans-serif;
+    border-right-color: antiquewhite;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: none;
+
+
+} 
+
+
+/* =======Button Styling====== */
+
+.border1{
+    width: 22em;
+    /* margin-left: 472px;  */
+     background-color: #232c43;
+    border-radius: 5px;
+}
+
+
+
+.bt1{
+    width: 4em;
+    height:40px ;
+    border-radius: 5px;
+    margin-top: 13px;
+    margin-left: 10px;
+    background-color: #eae3dc;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-color: none;
+    color: #534d69;
+    
+    
+}
+
+.bt2{
+    width: 4em;
+    height:40px ;
+    border-radius: 5px;
+    margin-left: 10px;
+    background-color: #637097;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-color: none;
+    color: #ebf5fc;
+    margin-right: 10px;
+
+}
+
+.bt3{
+    width: 9em;
+    margin-top: 13px;
+
+    height:40px ;
+    margin-left: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: #637097;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-color: #404e72;
+    color: #ebf5fc;
+
+
+
+   
+}
+
+.bt4{
+    width: 9em;
+    height: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    background-color: #d03f2f;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-color: #97281b;
+    color: #ebf5fc;
+
+
+}
+
+.bt5{
+    width: 4em;
+    height:40px ;
+    border-radius: 5px;
+    margin-top: 13px;
+    margin-left: 10px;
+    background-color: #eae3dc;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-color: none;
+    color: #534d69;
+    margin-right: 10px;
+}
+ 
+
+
+
+
+
+/* ========Media Queery for responsive======== */
+@media only screen and (max-width : 374px)
+{
+    .screen{
+        margin-left: -3px;
+        width: 20em;
+    }
+
+    .bt1{
+        width: 50px;
+        height:40px ;
+    }
+
+    .bt2{
+        width: 50px;
+        height: 40px;
+    }
+
+    .bt3{
+        width: 115px;
+        
+    }
+
+    .bt4{
+        width: 115px;
+
+    }
+
+    .bt5{
+        width: 50px;
+    }
+
+    .border1{
+        width: 320px;
+    }
+}
+
+@media only screen and (max-width : 335px)
+{
+    .screen{
+        margin-left: -3px;
+        width: 19em;
+    }
+
+    .bt1{
+        width: 50px;
+        height:40px ;
+    }
+
+    .bt2{
+        width: 50px;
+        height: 40px;
+    }
+
+    .bt3{
+        width: 115px;
+        
+    }
+
+    .bt4{
+        width: 115px;
+
+    }
+
+    .bt5{
+        width: 50px;
+    }
+
+    .border1{
+        width: 305px;
+    }
+}

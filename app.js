@@ -18,9 +18,6 @@ function deleteing()
 }
 
 
-
-
-
 // =========To Reset the Screen=========
 function reset()
 {
